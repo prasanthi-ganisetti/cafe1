@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    position: fixed;
+}
+a{
+    color: white;
+    text-decoration: none;
+     padding: 8px 100px;
+}
+a:hover{
+    background-color: lightgray;
+    color: black;
+   
+}
+.bg-container{
+    min-height: 70%;
+    background-image: url('https://www.w3schools.com/w3images/coffeehouse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container1{
+    text-align: center;
+    font-family: "Inconsolata", sans-serif;
+    line-height: 2;
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+}
+.bold{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left:40px;
+    bottom: 160px;
+    padding: 7px ;
+
+}
+.nrl{
+    color: white;
+    padding: 7px;
+    position: absolute;
+    right:40px;
+    bottom: 160px;
+   
+    
+}
+          /*ABOUT*/
+.ABOUT{
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    right: 600px;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.p1container{
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+    font-family: "Inconsolata", sans-serif;
+    line-height: 24px;
+    font-size: 20px;
+}
+.boxcontainer{
+    font-family: "Inconsolata", sans-serif;
+    width: 600px;
+    margin: auto;
+    background-color: lightgray;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: justify;
+    border-left: 5px solid grey;
+    padding-left: 10px;
+}
+.img-container{
+    width: 600px;
+    height: auto;
+    margin:auto;
+
+}
+.img-container img{
+    width: 100%;
+    height: auto;   
+}
+.txt-2{
+    width: 45%;
+    text-align: start;
+    margin: auto;
+}
+.menu-container{
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+}
+.span-container1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-family: "Segoe UI", Arial, sans-serif ;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.food-container{
+    width: 50%;
+    margin:auto;
+}
+.radio{
+    width: 100%;
+    padding: 5px 100px;
+    margin: 20px 0px;
+    color: black;
+    box-shadow: 5px 5px 10px rgb(145, 141, 141);
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+label{
+    padding: 5px 100px;
+    font-weight: 400;
+}
+label:hover{
+    background-color: rgb(115, 111, 111);
+    color: white;
+}
+.food-container{
+    display: block;
+     box-shadow: 5px 5px 10px rgb(145, 141, 141);
+}
+.food{
+    width: 100%;
+    display: none;
+    margin: auto;
+    text-align: left;
+   
+   
+}
+#Eat,#Drink{
+    display: none;
+}
+#Eat:checked~ .eat-container{
+    display: inline-block;
+}
+#Drink:checked~ .drink-container{
+    display: inline-block;
+}
+.eat-container{
+    text-align: start;
+    line-height: 3;
+     padding-left: 10px;
+}
+.drink-container{
+    text-align: start;
+    line-height: 3;
+     padding-left: 10px;
+}
+.img-container-1{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.img-container-1 img{
+    width: 100%;
+    height: auto;
+}
+.where-container{
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 40px;
+}
+.span-container2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-family: "Segoe UI", Arial, sans-serif ;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.p-tag {
+    width: 50%;
+    margin: auto;
+    text-align: start;
+}
+.img-container-2{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.img-container-2 img{
+    width: 100%;
+    height: auto;
+}
+.p-tag1{
+    width: 50%;
+    margin: auto;
+    text-align: start;
+    line-height: 1.5;
+}
+.p1bold{
+    background-color: black;
+    color: white;
+}
+.form-container {
+      max-width: 600px;
+      margin: auto;
+    }
+
+.form-container p {
+      font-size: 18px;
+      margin-bottom: 30px;
+}
+
+.form-container p strong {
+      font-weight: bold;
+}
+
+.form-input {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      font-family: monospace;
+}
+
+.form-input::placeholder {
+      color: #888;
+}
+
+.form-button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: monospace;
+      text-transform: uppercase;
+}
+
+.form-button:hover {
+      opacity: 0.9;
+}
+
+
